@@ -1,6 +1,8 @@
 /**
 * @prettier
 */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 body {
 	background-color: #f0ffff;
 }
@@ -53,23 +55,31 @@ body {
 }
 
 .code-input {
-	background-color: #fff5ee;
-
+	/* background-color: #fff5ee; */
 	width: 24%;
 	margin-right: 1%;
+	/* border: 3px solid black; */
+}
+
+.text-area {
+	padding: 0.5%;
+	width: 98%;
+	height: 99.25%;
+	background-color: #fff5ee;
 	border: 3px solid black;
+	overflow: scroll;
+	font-size: 1.5rem;
+	font-family: 'Fira Code', monospace;
 }
 
 .visualizer-console {
 	width: 75%;
-	/* border: 3px solid blue; */
 	display: flex;
 	flex-flow: column;
 }
 
 .visualizer {
 	background-color: #fff5ee;
-
 	height: 69%;
 	margin-bottom: 1%;
 	border: 3px solid black;
@@ -77,7 +87,6 @@ body {
 
 .console {
 	background-color: #fff5ee;
-
 	height: 30%;
 	border: 3px solid black;
 }

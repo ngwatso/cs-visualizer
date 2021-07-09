@@ -5,7 +5,7 @@
 import React from 'react';
 
 const CodeInput = () => {
-	return <h4>CodeInput</h4>;
+	return <textarea className="text-area"></textarea>;
 };
 
 export default CodeInput;
