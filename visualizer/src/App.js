@@ -10,7 +10,7 @@ import Visualizer from './components/Visualizer';
 function App() {
 	return (
 		<div className="App">
-			<h1>I LOVE ASHLYN!!!</h1>
+			<h1>CS Visualizer</h1>
 			<div className="main-body">
 				<div className="code-input">
 					<CodeInput />
